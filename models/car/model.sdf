@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='car'>
+    <static>true</static>
+      <link name='link'>
+        <pose frame=''>0 0 0.9 1.57 0 -1.57</pose>
+    
+        <visual name='visual'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+                <scale>1.7 1.7 1.7</scale>
+              <uri>model://car/meshes/car.dae</uri>
+            </mesh>
+          </geometry>
+            
+        </visual>
+      </link>
+  </model>
+</sdf>
+
